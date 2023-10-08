@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.commentBox {
+    width: 60%;
+    height: 15%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+.commentBox__box{
+    width: 80%;
+    height: 40%;
+    background-color: rgb(60, 59, 59);
+    color: azure;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.commentBox__box:focus{
+    outline: none;
+}
+
+.imgPerfil{
+    width: 8%;
+}
+
+.commentBox__box--modal{
+    width: 55%;
+    height: 60%;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    padding: 1rem;
+
+}
+.modal__text{
+    font-size: 1.2rem;
+    box-sizing: border-box; 
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal__eliminarIcon{
+    height: 5%;
+    display: flex;
+    padding: 1rem;
+}
+.modal__eliminarIcon:hover{
+    background-color:  rgb(77, 77, 77);
+    border-radius: 30px;
+}
+
+.modal__text--perfil{
+    font-size: 1rem;
+    box-sizing: border-box; 
+    color: white;
+    padding: .5rem;
+    box-sizing: border-box;
+  
+}
+.modal__text--input{
+    color: azure;
+    font-size: 1rem;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(60, 59, 59);
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+.modal__text--input:focus{
+    outline: none;
+    color: white;
+}
+
+.modal__button{
+    background-color: grey;
+    color: azure;
+    height: 5%;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+.modal__button:hover{
+    background-color: rgb(52, 52, 255);
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 15%;
+    background-color: rgb(31, 31, 31);
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
